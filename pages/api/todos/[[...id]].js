@@ -7,6 +7,7 @@ export default async (req, res) => {
     query: { id },
     method,
   } = req
+  
   const { db } = await connectToDatabase()
   const collection = db.collection('todos')
   let result, todo
