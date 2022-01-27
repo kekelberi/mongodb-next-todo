@@ -20,7 +20,7 @@ export default function Home({ isConnected, todos }) {
       </Head>
 
       <main className="container bg-white rounded shadow p-6 m-4 w-full lg:w-3/4">
-        <h1 className="text-2xl font-bold text-grey-darkest">
+        <h1 className="text-2xl font-bold text-grey-darkest text-red-600 ">
           MongoDB Atlas & Next.js Todo App
         </h1>
         {isConnected ? (
